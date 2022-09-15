@@ -43,12 +43,20 @@ namespace Uebungen
             //double zahl2 = Convert.ToDouble(Console.ReadLine());
             //Console.WriteLine(zahl1 + zahl2);
             //Console.ReadLine();
-            
+
             //Aufgabe 5:
+            //Console.WriteLine("Gib mir bitte einen Text!");
+            //string text = Console.ReadLine();
+            //Console.WriteLine(text.PadLeft(20, 'y'));
+            //Console.ReadLine();
+
+            //Aufgabe 6:
             Console.WriteLine("Gib mir bitte einen Text!");
             string text = Console.ReadLine();
-            Console.WriteLine(text.PadLeft(20, 'y'));
+            Console.WriteLine(text.PadRight(30, 'y'));
             Console.ReadLine();
+
+
         }
     }
 }
