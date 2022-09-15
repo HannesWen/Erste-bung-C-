@@ -36,10 +36,21 @@ namespace Uebungen
 
             //Aufgabe 4:
 
-            Console.WriteLine("Wie lautet dein Wunschtext?");
-            string textlänge = Console.ReadLine();
-            Console.WriteLine("Die länge deines textes ist: " + textlänge.Length);
+            //Console.WriteLine("Wie lautet dein Wunschtext?");
+            //string textlänge = Console.ReadLine();
+            //Console.WriteLine("Die länge deines textes ist: " + textlänge.Length);
+            //Console.ReadLine();
+
+            //Aufgabe 2b:
+
+            Console.WriteLine("Bitte gebe mir 2 Zahlen mit Kommastelle");
+            double zahl1 = Convert.ToDouble(Console.ReadLine());
+            double zahl2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(zahl1 + zahl2);
             Console.ReadLine();
+
+
+            
         }
     }
 }
