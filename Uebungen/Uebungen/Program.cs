@@ -34,6 +34,12 @@ namespace Uebungen
             //Console.WriteLine(replaced_entry);    
             //Console.ReadLine();
 
+            //Aufgabe 4:
+
+            Console.WriteLine("Wie lautet dein Wunschtext?");
+            string textlänge = Console.ReadLine();
+            Console.WriteLine("Die länge deines textes ist: " + textlänge.Length);
+            Console.ReadLine();
         }
     }
 }
