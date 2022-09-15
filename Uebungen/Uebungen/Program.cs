@@ -19,12 +19,20 @@ namespace Uebungen
 
             //Aufgabe 2: 
 
-            Console.WriteLine("Welche Zahlen möchtest du Addieren? ");
-            int zahl1 = Convert.ToInt32(Console.ReadLine());
-            int zahl2 = Convert.ToInt32(Console.ReadLine());
-            int summe = zahl1 + zahl2;
-            Console.WriteLine("Die Summe deiner Zahlen ist: " + summe);
-            Console.ReadLine();
+            //Console.WriteLine("Welche Zahlen möchtest du Addieren? ");
+            //int zahl1 = Convert.ToInt32(Console.ReadLine());
+            //int zahl2 = Convert.ToInt32(Console.ReadLine());
+            //int summe = zahl1 + zahl2;
+            //Console.WriteLine("Die Summe deiner Zahlen ist: " + summe);
+            //Console.ReadLine();
+
+            //Aufgabe 3: 
+
+            //Console.WriteLine("Gib mir bitte einen Text");
+            //string entry = Console.ReadLine();
+            //string replaced_entry = entry.Replace("U", "u").Replace("G", "g");
+            //Console.WriteLine(replaced_entry);    
+            //Console.ReadLine();
 
         }
     }
