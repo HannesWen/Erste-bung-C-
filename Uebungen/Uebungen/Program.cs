@@ -51,11 +51,17 @@ namespace Uebungen
             //Console.ReadLine();
 
             //Aufgabe 6:
-            Console.WriteLine("Gib mir bitte einen Text!");
-            string text = Console.ReadLine();
-            Console.WriteLine(text.PadRight(30, 'y'));
-            Console.ReadLine();
+            //Console.WriteLine("Gib mir bitte einen Text!");
+            //string text = Console.ReadLine();
+            //Console.WriteLine(text.PadRight(30, 'y'));
+            //Console.ReadLine();
 
+            //Aufgabe 7:
+            Console.WriteLine("Bitte gebe mir eine Texteingabe mit einigen Leerzeichen davor und danach, Danke!");
+            string text = Console.ReadLine();
+            Console.WriteLine(text);
+            Console.WriteLine(text.Trim());
+            Console.ReadLine();
 
         }
     }
