@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Uebungen
 {
@@ -94,7 +91,19 @@ namespace Uebungen
             //Console.WriteLine(text.ToUpper());
             //Console.ReadLine();
             //Console.WriteLine();
-            
+
+            //Seite 2, Aufgabe 1
+
+            Console.WriteLine("Gib mir bitte eine Zahl");
+            int zahl = Convert.ToInt32(Console.ReadLine());
+            int sum = 0;
+            for (int zahl1 = 0; zahl > sum; zahl1++)
+            {
+                sum = sum + zahl1;
+                Console.WriteLine(sum);
+            }
+            Console.ReadLine();
+           
         }
     }
 }
