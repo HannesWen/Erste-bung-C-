@@ -93,17 +93,22 @@ namespace Uebungen
             //Console.WriteLine();
 
             //Seite 2, Aufgabe 1
+            //Console.WriteLine("Gib mir bitte eine Zahl");
+            //int zahl = Convert.ToInt32(Console.ReadLine());
+            //int sum = 0;
+            //for (int zahl1 = 0; zahl > sum; zahl1++)
+            //{
+            //    sum = sum + zahl1;
+            //    Console.WriteLine(sum);
+            //}
+            //Console.ReadLine();
 
+            //Seite 2, Aufgabe 2
             Console.WriteLine("Gib mir bitte eine Zahl");
             int zahl = Convert.ToInt32(Console.ReadLine());
-            int sum = 0;
-            for (int zahl1 = 0; zahl > sum; zahl1++)
-            {
-                sum = sum + zahl1;
-                Console.WriteLine(sum);
-            }
+            for (int zahl1 = zahl; zahl1 >= 0; zahl1--)
+            Console.WriteLine(zahl1);
             Console.ReadLine();
-           
         }
     }
 }
