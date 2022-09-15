@@ -64,14 +64,31 @@ namespace Uebungen
             //Console.ReadLine();
 
             //Aufgabe 8:
-            Console.WriteLine("Bitte gib mir einen Text mit ; Danke");
-            string text = Console.ReadLine();
-            string[] newText = text.Split(';');
-            foreach (var word in newText)
-            {
-                Console.WriteLine(word);
-            }
-            Console.ReadLine();
+            //Console.WriteLine("Bitte gib mir einen Text mit ; Danke");
+            //string text = Console.ReadLine();
+            //string[] newText = text.Split(';');
+            //foreach (var word in newText)
+            //{
+            //    Console.WriteLine(word);
+            //}
+            //Console.ReadLine();
+
+            //Aufgabe 9:
+            //Console.WriteLine("Bitte gib mir einen Text deiner Wahl");
+            //string text = Console.ReadLine();
+
+            //    unnötige Lösung
+            //if (text.Contains("abc")){
+            //    Console.WriteLine("true");
+            //}
+            //else
+            //    Console.WriteLine("false");
+
+            //     so sollte es sein
+            //Console.WriteLine(text.Contains("abc"));
+            //Console.ReadLine();
+
+
         }
     }
 }
