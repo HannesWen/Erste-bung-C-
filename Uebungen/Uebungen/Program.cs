@@ -57,12 +57,21 @@ namespace Uebungen
             //Console.ReadLine();
 
             //Aufgabe 7:
-            Console.WriteLine("Bitte gebe mir eine Texteingabe mit einigen Leerzeichen davor und danach, Danke!");
-            string text = Console.ReadLine();
-            Console.WriteLine(text);
-            Console.WriteLine(text.Trim());
-            Console.ReadLine();
+            //Console.WriteLine("Bitte gebe mir eine Texteingabe mit einigen Leerzeichen davor und danach, Danke!");
+            //string text = Console.ReadLine();
+            //Console.WriteLine(text);
+            //Console.WriteLine(text.Trim());
+            //Console.ReadLine();
 
+            //Aufgabe 8:
+            Console.WriteLine("Bitte gib mir einen Text mit ; Danke");
+            string text = Console.ReadLine();
+            string[] newText = text.Split(';');
+            foreach (var word in newText)
+            {
+                Console.WriteLine(word);
+            }
+            Console.ReadLine();
         }
     }
 }
