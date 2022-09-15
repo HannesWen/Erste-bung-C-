@@ -77,18 +77,24 @@ namespace Uebungen
             //Console.WriteLine("Bitte gib mir einen Text deiner Wahl");
             //string text = Console.ReadLine();
 
-            //    unnötige Lösung
-            //if (text.Contains("abc")){
+            //unnötige Lösung
+            //if (text.Contains("abc"))
+            //{
             //    Console.WriteLine("true");
             //}
             //else
             //    Console.WriteLine("false");
-
             //     so sollte es sein
             //Console.WriteLine(text.Contains("abc"));
             //Console.ReadLine();
 
-
+            //Aufgabe 10:
+            //Console.WriteLine("bitte gib mir einen text deiner wahl");
+            //string text = Console.ReadLine();
+            //Console.WriteLine(text.ToUpper());
+            //Console.ReadLine();
+            //Console.WriteLine();
+            
         }
     }
 }
