@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Xml.Schema;
 using System.Xml.Serialization;
@@ -167,23 +168,36 @@ namespace Uebungen
 
             // Wie funktionieren Arrays? 
 
-            int[] zahlen = new int[5];
+            //int[] zahlen = new int[5];
             //[   |   |   |   |   ]
             //int[] zahlen2 = new int[] { 2, 8, 12, 3, 6 };
             //[ 2 | 8 | 12 | 3 | 6 ]
 
-            for(int i = 0; i< zahlen.Length; i++)
-            {
-                Console.WriteLine("Gebe mir eine Zahl für das Array!");
-                zahlen[i] = Convert.ToInt32(Console.ReadLine());
-            }
-            Console.Write("[ ");
-            for (int i = 0; i < zahlen.Length; i++)
-            {
-                Console.Write($" {zahlen[i]} | ");
-            }
-            Console.Write("] ");
-            Console.ReadKey();
+            //for (int i = 0; i < zahlen.Length; i++)
+            //{
+            //    Console.WriteLine("Gebe mir eine Zahl für das Array!");
+            //    zahlen[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+            //Console.Write("[ ");
+            //for (int i = 0; i < zahlen.Length; i++)
+            //{
+            //    Console.Write($" {zahlen[i]} | ");
+            //}
+            //Console.Write("] ");
+            //Console.ReadKey();
+
+            //string[] namen = new string[13];
+            //string[] namen2 = new string[]
+            //{
+            //    "Jonas", "Philipp" ,"Niklas" , "Marcello" ,  "Andreas" ,  "Robin" ,  "Robert" ,  "Marie" ,  "Leon" ,  "Erwin" ,  "Jan" ,  "Mona" ,  "lukas" ,  "Johannes"
+            //};
+            //foreach(string trainee in namen2)
+            //{
+            //    Console.Write(trainee);
+            //}
+            //Console.ReadKey();
+
+
 
         }
     }
