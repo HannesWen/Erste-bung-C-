@@ -177,16 +177,13 @@ namespace Uebungen
                 Console.WriteLine("Gebe mir eine Zahl für das Array!");
                 zahlen[i] = Convert.ToInt32(Console.ReadLine());
             }
-
             Console.Write("[ ");
             for (int i = 0; i < zahlen.Length; i++)
             {
                 Console.Write($" {zahlen[i]} | ");
             }
-
             Console.Write("] ");
-
-            Console.ReadLine();
+            Console.ReadKey();
 
         }
     }
