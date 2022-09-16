@@ -11,33 +11,81 @@ namespace Uebungen
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Wie viele Einträge möchtest du in deinem int Array?");
+            ////Seite 2, Aufgabe 5:
+            //for (int i = 0; i < 100; i++)
+            //{
+            //    if (i % 3 == 0 && i % 5 == 0)
+            //    {
+            //        Console.WriteLine("FizzBuzz");
+            //    }
+            //    else if (i % 3 == 0)
+            //    {
+            //        Console.WriteLine("Fizz");
+            //    }
+            //    else if (i % 5 == 0)
+            //    {
+            //        Console.WriteLine("Buzz");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+            //Console.ReadKey();
 
-            int arraygröße = Convert.ToInt16(Console.ReadLine());
-            int[] zahlen = new int [arraygröße] ;
 
-            for (int i = 0; i < zahlen.Length; i++)
+            //Switch
+            //string zahl = Console.ReadLine();
+            //switch(zahl)
+            //{
+            //    case "1":
+            //        Console.WriteLine("Die Zahl ist 1");
+            //        break;
+            //    case "2":
+            //        Console.WriteLine("Die Zahl ist 2");
+            //        break;
+            //    case "3":
+            //        Console.WriteLine("Die Zahl ist fünf");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Kein Fall trifft zu");
+            //        break;
+            //}
+            //Console.ReadKey();
+
+            //Taschenrechner simpel
+
+            Console.WriteLine("Gebe mir eine Zahl");
+            int zahl1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Was möchtest du mit der Zahl machen?");
+            string rechenzeichen = (Console.ReadLine());
+
+            Console.WriteLine("Gebe mir eine weitere Zahl");
+            int zahl2 = Convert.ToInt32(Console.ReadLine());
+
+            double ergebnis = 0;
+
+            switch (rechenzeichen)
             {
-                Console.WriteLine("Gebe mir eine Zahl für das Array!");
-                zahlen[i] = Convert.ToInt32(Console.ReadLine());
+                case "*":
+                    ergebnis = zahl1 * zahl2;
+                    Console.WriteLine(ergebnis);
+                    break;
+                case "/":
+                    ergebnis = zahl1 / zahl2;
+                    Console.WriteLine(ergebnis);
+                    break;
+                case "+":
+                    ergebnis = zahl1 + zahl2;
+                    Console.WriteLine(ergebnis);
+                    break;
+                case "-":
+                    ergebnis = zahl1 - zahl2;
+                    Console.WriteLine(ergebnis);
+                    break;
             }
-
-            Console.Write("[ ");
-            for (int i = 0; i < zahlen.Length; i++)
-            {
-                Console.Write($" {zahlen[i]} | ");
-            }
-            Console.WriteLine("] ");
-
-            double durchschnitt = zahlen.Average();
-            int maximalwert = zahlen.Max();
-            int minimalwert = zahlen.Min();
-            Console.WriteLine("Der Durchschnitt ist: " + durchschnitt);
-            Console.WriteLine("Der Minimalwert ist: " + minimalwert);
-            Console.WriteLine("Der Maximalwert ist: " + maximalwert);
             Console.ReadKey();
-
-
 
         }
     }
